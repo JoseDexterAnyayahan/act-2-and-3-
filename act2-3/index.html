@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Jose Dexter B. Anyayahan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .profile-card {
+            background-color: #fff;
+            width: 500px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 0 15px rgba(255, 255, 255, 0.5);
+            text-align: center;
+            position: relative;
+            border: 5px solid;
+            border-image: linear-gradient(45deg, #ff6ec4, #7873f5) 1;
+        }
+        .profile-avatar {
+            background: #e0e0e0;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .profile-avatar img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        .profile-name {
+            font-size: 1.5em;
+            margin-top: 20px;
+            color: #333;
+        }
+        .profile-details {
+            margin-top: 15px;
+            text-align: left;
+        }
+        .profile-details p {
+            margin-bottom: 10px;
+            font-size: 1em;
+            color: #555;
+        }
+        .profile-details span {
+            font-weight: bold;
+            color: #333;
+        }
+        .social-media {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .social-icon {
+            text-decoration: none;
+            color: #555;
+            font-size: 1.5em;
+            transition: color 0.3s ease;
+        }
+        .social-icon:hover {
+            color: #7873f5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <div class="profile-avatar">
+            <img src="photo/IMG_7040.jpeg" alt="Avatar">
+        </div>
+        <h2 class="profile-name">Jose Dexter B. Anyayahan</h2>
+        <div class="profile-details">
+            <p><span>Address:</span> Nag-iba 2, Calapan City, Oriental Mindoro</p>
+            <p><span>Contact No.:</span> 09668830150</p>
+            <p><span>Favorite Subject:</span> Integrative Programming and Tech 2</p>
+        </div>
+        
+        <!-- Social Media Links -->
+        <div class="social-media">
+            <a href="https://www.facebook.com/yourprofile" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/yourprofile" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@yourprofile" target="_blank" class="social-icon"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.github.com/yourprofile" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+
+</body>
+</html>
